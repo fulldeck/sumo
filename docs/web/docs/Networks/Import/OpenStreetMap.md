@@ -540,16 +540,14 @@ whole of Scotland) but some precautions should be taken:
 - reduce the network size with the following options
 
 ```
---no-internal-links, --keep-edges.by-vclass passenger, 
-  --remove-edges.by-type highway.track,highway.services,highway.unsurfaced
+--no-internal-links --keep-edges.by-vclass passenger --remove-edges.by-type highway.track,highway.services,highway.unsurfaced
 ```
 
 - if you only need major roads you can reduce the network further by
   setting the option
 
 ```
---keep-edges.by-type 
-  highway.motorway,highway.motorway_link,highway.trunk,highway.trunk_link,highway.primary,highway.primary_link
+--keep-edges.by-type highway.motorway,highway.motorway_link,highway.trunk,highway.trunk_link,highway.primary,highway.primary_link
 ```
 
 - if your network is larger than \~500MB make sure you use the 64bit
