@@ -356,8 +356,8 @@ Files](Basics/Using_the_Command_Line_Applications.md#configuration_files).
 | **--keep-edges.input-file** {{DT_FILE}} | Only keep edges in FILE (Each id on a single line. Selection files from sumo-gui are also supported) or those which are kept due to other keep-edges or remove-edges options |
 | **--remove-edges.input-file** {{DT_FILE}} | Remove edges in FILE. (Each id on a single line. Selection files from sumo-gui are also supported) |
 | **--keep-edges.postload** {{DT_BOOL}} | Remove edges after joining; *default:* **false** |
-| **--keep-edges.in-boundary** {{DT_STR[]}} | Only keep edges which are located within the given boundary (given either as CARTESIAN corner coordinates <xmin,ymin,xmax,ymax> or as polygon <x0,y0,x1,y1,...>) |
-| **--keep-edges.in-geo-boundary** {{DT_STR[]}} | Only keep edges which are located within the given boundary (given either as GEODETIC corner coordinates <lon-min,lat-min,lon-max,lat-max> or as polygon <lon0,lat0,lon1,lat1,...>) |
+| **--keep-edges.in-boundary** {{DT_STR[]}} | Only keep edges which are located within the given boundary (given either as CARTESIAN corner coordinates "xmin,ymin,xmax,ymax" or as polygon "x0,y0,x1,y1,...") |
+| **--keep-edges.in-geo-boundary** {{DT_STR[]}} | Only keep edges which are located within the given boundary (given either as GEODETIC corner coordinates "lon-min,lat-min,lon-max,lat-max" or as polygon "lon0,lat0,lon1,lat1,...") |
 | **--keep-edges.by-vclass** {{DT_STR[]}} | Only keep edges which allow one of the vclasses in STR[] |
 | **--remove-edges.by-vclass** {{DT_STR[]}} | Remove edges which allow only vclasses from STR[] |
 | **--keep-edges.by-type** {{DT_STR[]}} | Only keep edges where type is in STR[] |
